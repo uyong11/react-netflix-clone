@@ -50,6 +50,7 @@ const FooterContent = styled.div``;
 
 const FooterLinkContainer = styled.div`
   width: 500px;
+
   @media (max-width: 768px) {
     width: 100%;
   }
@@ -57,7 +58,7 @@ const FooterLinkContainer = styled.div`
 
 const FooterLinkTitle = styled.h1`
   color: gray;
-  font-size: 7px;
+  font-size: 17px;
 `;
 
 const FooterLinkContent = styled.div`
@@ -74,6 +75,7 @@ const FooterLinkContent = styled.div`
 const FooterLink = styled.a`
   color: gray;
   font-size: 14px;
+  width: 110px;
   margin-bottom: 21px;
   text-decoration: none;
 
@@ -83,7 +85,7 @@ const FooterLink = styled.a`
 
   @media (max-width: 768px) {
     margin-bottom: 16px;
-  } ;
+  }
 `;
 
 const FooterDescContainer = styled.div`
